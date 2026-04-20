@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    background: linear-gradient(
+        100deg,
+        #040e4d,
+        #000000
+    );
+}
+
+h1{
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+nav {
+  width: 100%;
+  max-width: 800px; 
+  height: 90px;     
+  margin: 50px auto;   
+  background-color: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 20px; 
+  display: flex; 
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 100px;                
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 70px; 
+    justify-content: flex-end;
+    padding: 0px;
+    margin-top: 25px;
+    font-size: 20px;;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(200, 200, 200, 0.15);
+}
+
+.PC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+}
+
+.foto{
+    width:90%;
+    border-radius: 20px;
+}
+
+.entenda-melhor {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding:30px;
+}
+
+.cards-entenda {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.porque{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding: 200px;
+}
+
+.cards-porque{
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 20px;
+    
+}
+
+.card-2{
+    background-color: rgba(73, 6, 128, 0.281);
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    
+}
+
+/* chatgpt usado para ajudar a criar um texto com gradiente de diferentes cores */
+
+ h3, h4, h5{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+    background-clip: text;             
+    -webkit-background-clip: text;      
+    color: transparent;                 
+    -webkit-text-fill-color: transparent; 
+}
+
+.comparacao {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin: 100px auto;
+    color: white;
+}
+
+.Sem {
+    width: 500px;
+    text-align: center;
+}
+
+.Com {
+    width: 600px;
+    text-align: center;
+}
+
+.Sem img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.Com img {
+    width: 100%;
+    margin-bottom: 15px
+}
+
+.Sem li, .Com ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Sem li, .Com li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.crie {
+    text-align: center;
+    margin: 150px 0;
+    color: white;
+    padding: 150px;
+}
+
+.crie h6 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.crie p {
+    font-size: 24px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.logo{
+    max-width: 80px; 
+}
+
+.LogoSoftware{
+    align-items: left;
+    justify-content: left;
+}
+
+.botaoCriar{
+   text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px; 
+    background-color: #f3f3f3;
+}
+
+.botaoCriar:hover {
+    color: #3b82f6;
+}
