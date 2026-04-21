@@ -80,7 +80,7 @@ nav a:hover {
     padding: 250px;
 }
 
-.foto{
+.foto-pc{
     width:90%;
     border-radius: 20px;
 }
@@ -220,7 +220,8 @@ h3{
 }
 
 .logo{
-    max-width: 80px; 
+    max-width: 70px; 
+    border-radius: 50%;
 }
 
 .LogoSoftware{

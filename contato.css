@@ -1,0 +1,169 @@
+.eu{
+    width: 190px;
+    border-radius: 50%;
+    height: 190px;
+    border: 5px solid whitesmoke;
+}
+.Minha-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ 
+}
+
+
+nav {
+  width: 100%;
+  max-width: 800px; 
+  height: 90px;     
+  margin: 50px auto;   
+  background-color: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 20px; 
+  display: flex; 
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 100px;                
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+.logo{
+    max-width: 70px; 
+    border-radius: 50%;
+}
+
+.LogoSoftware{
+    align-items: left;
+    justify-content: left;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 70px; 
+    justify-content: flex-end;
+    padding: 0px;
+    margin-top: 25px;
+    font-size: 20px;;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(200, 200, 200, 0.15);
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(
+        100deg,
+        #040e4d,
+        #000000
+    );
+}
+
+
+h1{
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+}
+
+
+.foto-frustacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+
+}
+
+.frustacao{
+    width: 80%;
+    padding: 50px;
+    border-radius: 7%;
+}
+
+h3{
+   font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 200px;
+}
+
+h4{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 200px;
+}
+
+.foto-logo-bdl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.logobdl{
+    width: 50%;
+    padding: 60px;
+    border-radius: 7%; 
+}
+
+.montagem-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.montagem{
+    width: 70%;
+    padding: 60px;
+    border-radius: 7%; 
+}
+
+h2, h3, h4{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+    background-clip: text;             
+    -webkit-background-clip: text;      
+    color: transparent;                 
+    -webkit-text-fill-color: transparent; 
+}
+
