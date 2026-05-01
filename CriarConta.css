@@ -16,13 +16,11 @@ nav {
 .menu{
     list-style: none;
     display: flex;
-    justify-content: center; 
     gap: 70px; 
     justify-content: flex-end;
     padding: 0px;
     margin-top: 25px;
     font-size: 20px;
-    
 }
 
 nav a {
@@ -36,9 +34,6 @@ nav a:hover {
 }
 
 .menu a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Inter', sans-serif;
     padding: 8px 16px;
     border-radius: 10px;
     transition: 0.3s;
@@ -53,11 +48,6 @@ nav a:hover {
     border-radius: 50%;
 }
 
-.LogoSoftware{
-    align-items: left;
-    justify-content: left;
-}
-
 body {
     margin: 0;
     background: linear-gradient(
@@ -67,49 +57,21 @@ body {
     );
 }
 
-.Login{
-    position: fixed;
-    top: 30px;
-    left: 200px;
-}
 
-.usuario{
-    width: 80px;
-    position: fixed;
-    top: 0;
-    margin-left: 100px;
-    margin-top: 15px;
+.container{
     text-align: center;
+    margin-top: 300px;
 }
 
-#usuario{
-    padding: 10px 25px;  
-}
 
-#usuario:hover{
-    background-color: aliceblue;
-}
-
-#senha{
-    padding: 10px 25px;   
-}
-
-#senha:hover{
-    background-color: aliceblue;
-}
-
-#email{
+#usuario, #senha, #email, #confirmarSenha{
     padding: 10px 25px;
+    margin: 10px;
 }
 
-#email:hover{
-    background-color: aliceblue;
-}
-
-#confirmarSenha{
-    padding: 10px 25px;
-}
-
+#usuario:hover,
+#senha:hover,
+#email:hover,
 #confirmarSenha:hover{
     background-color: aliceblue;
 }
@@ -118,7 +80,6 @@ body {
     padding: 20px 50px;
     background-color: rgb(185, 181, 181);
     font-weight: bold;
-    margin-left: 850px;
     margin-top: 30px;
 }
 
@@ -131,12 +92,6 @@ button:disabled {
     background-color: lightslategrey;
 }
 
-div{
-    text-align: center;
-    margin-top: 300px;
-    
-}
-
 .fim{
     font-size: 20px;
     color: aliceblue;
@@ -146,5 +101,5 @@ div{
 
 h1{
     font-size: 60px;
-    color: whitesmoke
+    color: whitesmoke;
 }

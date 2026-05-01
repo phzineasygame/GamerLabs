@@ -3,45 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="CriarConta.css">
+    <link rel="stylesheet" href="CriarConta.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Crie sua conta - BuildCore Labs</title>
 </head>
 <body>
-     <nav>
-        <div class="LogoSoftware">
-             <img src="BuildCore Labs.png" class="logo">
-        </div>
+
+<nav>
+    <div class="LogoSoftware">
+        <img src="BuildCore Labs.png" class="logo">
+    </div>
     <ul class="menu">
         <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
         <li><a href="index.html">Início</a></li>
+        <li><a href="login.html">Login</a></li>
     </ul>
 </nav>
 
-<div>
-<h1>Crie sua conta</h1>
+<div class="container">
+    <h1>Crie sua conta</h1>
 
     <form id="registerForm">
         <input type="text" id="usuario" placeholder="Usuário" required>
-
         <input type="email" id="email" placeholder="Email" required>
-
         <input type="password" id="senha" placeholder="Senha" required>
-
         <input type="password" id="confirmarSenha" placeholder="Confirmar senha" required>
 
-</div>
-
-        <button type="submit" id="botao" disabled>Criar conta</button>
+        <br><br>
+        <button type="submit" id="botao">Criar conta</button>
     </form>
+</div>
 
 <footer class="fim">
     <p>© 2026 BuildCore Labs</p>
 </footer>
 
-    <script src="CriarConta.js"></script>
+<script src="CriarConta.js"></script>
+<script type="module" src="script.js"></script>
 
-    
 </body>
 </html>

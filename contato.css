@@ -196,3 +196,25 @@ h2, h3, h4{
     background-color: rgba(200, 200, 200, 0.15);
 }
 
+.meu-pc{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+ 
+}
+
+.MyPC{
+    width: 50%;
+    padding: 60px;
+    border-radius: 7%;
+    border: 2px solid aliceblue;
+}
+
+.texto{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 100px;
+}
