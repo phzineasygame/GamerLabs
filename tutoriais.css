@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+}
+body{
+    margin: 0;
+    background: linear-gradient(
+        100deg,
+        #040e4d,
+        #000000
+    );
+}                        
+
+.tutorial{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
