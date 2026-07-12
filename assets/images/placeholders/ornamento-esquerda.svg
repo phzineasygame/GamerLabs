@@ -1,0 +1,47 @@
+<svg width="220" height="700" viewBox="0 0 220 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FFF2A8"></stop>
+        <stop offset="35%" stop-color="#D4AF37"></stop>
+        <stop offset="70%" stop-color="#A67C00"></stop>
+        <stop offset="100%" stop-color="#F7D774"></stop>
+    </linearGradient>
+</defs>
+
+
+<!-- Linha principal estilo fita -->
+<path d="M170 20
+C90 90 90 160 150 220
+C210 280 50 340 70 420
+C90 500 160 520 130 680" stroke="url(#gold)" stroke-width="3" fill="none"></path>
+
+
+<!-- Segunda curva decorativa -->
+<path d="M145 60
+C80 130 120 180 160 240
+C200 300 80 360 95 430
+C110 500 170 560 145 640" stroke="url(#gold)" stroke-width="1.5" fill="none" opacity="0.7"></path>
+
+
+<!-- Pequenos detalhes -->
+<circle cx="150" cy="220" r="6" fill="#D4AF37"></circle>
+<circle cx="70" cy="420" r="5" fill="#D4AF37"></circle>
+
+
+<!-- Folha superior -->
+<path d="M150 90
+C120 70 115 35 160 20
+C170 60 170 80 150 90Z" stroke="url(#gold)" stroke-width="2" fill="none"></path>
+
+
+<!-- Folha inferior -->
+<path d="M130 580
+C90 560 80 600 130 650
+C170 610 160 590 130 580Z" stroke="url(#gold)" stroke-width="2" fill="none"></path>
+
+
+<!-- Brilho central -->
+<path d="M150 210 L155 220 L150 230 L145 220 Z" fill="#FFF2A8"></path>
+
+</svg>

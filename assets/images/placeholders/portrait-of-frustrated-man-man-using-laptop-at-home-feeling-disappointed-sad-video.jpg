@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <rect width="400" height="240" fill="#111827"/>
+  <rect x="20" y="20" width="360" height="200" rx="16" fill="#1f2937" stroke="#4b5563" stroke-width="2"/>
+  <text x="200" y="115" text-anchor="middle" fill="#f9fafb" font-size="22" font-family="Arial, sans-serif">Imagem em breve</text>
+  <text x="200" y="145" text-anchor="middle" fill="#9ca3af" font-size="14" font-family="Arial, sans-serif">portrait-of-frustrated-man-man-using-laptop-at-home-feeling-disappointed-sad-video.jpg</text>
+</svg>
