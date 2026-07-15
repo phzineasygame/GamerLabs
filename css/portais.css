@@ -1,0 +1,237 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:#050505;
+
+    color:white;
+
+    font-family:"Inter",sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+/* Fundo com estrelas */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+        radial-gradient(circle,#ffffff 1px,transparent 1px);
+
+    background-size:220px 220px;
+
+    opacity:.08;
+
+    pointer-events:none;
+
+}
+
+/* ====================== */
+
+.portais{
+
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:90px 40px;
+
+    text-align:center;
+
+}
+
+.portais h1{
+
+    font-family:"Cinzel",serif;
+
+    font-size:4rem;
+
+    letter-spacing:8px;
+
+    margin-bottom:20px;
+
+}
+
+.portais p{
+
+    max-width:750px;
+
+    margin:auto;
+
+    color:#BBBBBB;
+
+    line-height:1.8;
+
+    margin-bottom:70px;
+
+}
+
+/* ====================== */
+
+.grid-portais{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:60px;
+
+    justify-items:center;
+
+}
+
+/* ====================== */
+
+.portal{
+
+    text-decoration:none;
+
+    color:white;
+
+    position:relative;
+
+    transition:.4s;
+
+}
+
+/* brilho no chão */
+
+.portal::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:180px;
+
+    height:28px;
+
+    background:rgba(155,90,255,.30);
+
+    filter:blur(20px);
+
+    border-radius:50%;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    bottom:90px;
+
+    transition:.4s;
+
+}
+
+.portal img{
+
+    width:240px;
+
+    animation:flutuar 4s ease-in-out infinite;
+
+    filter:drop-shadow(0 0 25px #8B5CF6);
+
+    transition:.4s;
+
+}
+
+.portal h2{
+
+    margin-top:18px;
+
+    font-size:2rem;
+
+}
+
+.portal span{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#BBBBBB;
+
+}
+
+/* Hover */
+
+.portal:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.portal:hover img{
+
+    transform:scale(1.08);
+
+    filter:
+        drop-shadow(0 0 45px #A855F7);
+
+}
+
+.portal:hover::after{
+
+    width:220px;
+
+    background:rgba(168,85,247,.45);
+
+}
+
+/* ====================== */
+
+@keyframes flutuar{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+/* ====================== */
+
+@media(max-width:768px){
+
+    .portais h1{
+
+        font-size:2.8rem;
+
+        letter-spacing:4px;
+
+    }
+
+    .portal img{
+
+        width:180px;
+
+    }
+
+}
