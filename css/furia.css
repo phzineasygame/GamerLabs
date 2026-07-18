@@ -1,0 +1,339 @@
+.detalhe-lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        #ffffff 15%,
+        #ffffff 85%,
+        transparent 100%
+    );
+
+    opacity: 0.45;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.detalhe-esquerda {
+    left: 25px;
+}
+
+.detalhe-direita {
+    right: 25px;
+}
+
+
+
+
+nav {
+width: 100%;
+height: 150px;
+margin: 0;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 20px;
+box-sizing: border-box;
+}
+
+.menu {
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+padding: 0;
+margin: 25px 0 0;
+font-size: 20px;
+}
+
+.menu a {
+text-decoration: none;
+color: white;
+font-family: 'Inter', sans-serif;
+padding: 8px 16px;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.menu a {
+background-color: rgba(200, 200, 200, 0.15);
+}
+
+.pagina-time {
+    background: #080808;
+    color: white;
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+.apresentacao-time {
+    max-width: 1200px;
+    margin: 110px auto 0;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.4fr;
+    gap: 45px;
+    align-items: center;
+}
+
+.info-time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-time {
+    width: 230px;
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.info-time h1 {
+    font-size: 3rem;
+    margin: 0 0 15px;
+}
+
+.info-time p {
+    color: #c4c4c4;
+    line-height: 1.7;
+    max-width: 430px;
+}
+
+.banner-time {
+    height: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #292929;
+}
+
+.banner-time img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.banner-time:hover img {
+    transform: scale(1.05);
+}
+
+.jogos-time,
+.jogadores-time,
+.redes-time {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 85px 30px 0;
+}
+
+.jogos-time h2,
+.jogadores-time h2,
+.redes-time h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+
+.grid-jogos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-jogo {
+    background: #121212;
+    border: 1px solid #252525;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card-jogo:hover {
+    transform: translateY(-7px);
+    border-color: #00ff6a;
+}
+
+.card-jogo img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.card-jogo h3 {
+    margin: 15px 0 0;
+}
+
+.link-card-jogo {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.link-card-jogo:focus-visible {
+    outline: 3px solid #00ff6a;
+    outline-offset: 5px;
+    border-radius: 16px;
+}
+.jerseys-time {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 30px;
+}
+
+.jerseys-time h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.subtitulo-jerseys {
+    max-width: 720px;
+    margin: 0 auto 45px;
+    text-align: center;
+    color: #bdbdbd;
+    line-height: 1.6;
+}
+
+.grid-jerseys {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card-jersey {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: #101010;
+    border: 1px solid #252525;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.card-jersey:hover {
+    transform: translateY(-8px);
+    border-color: #00ff6a;
+    box-shadow: 0 0 20px rgba(0, 255, 106, 0.18);
+}
+
+.card-jersey img {
+    width: 150px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.info-jersey span {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 5px 11px;
+    border-radius: 20px;
+    background: #00ff6a;
+    color: #050505;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.info-jersey h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+
+.info-jersey p {
+    margin: 0;
+    color: #bdbdbd;
+    line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+    .grid-jerseys {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .card-jersey {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-jersey img {
+        width: 130px;
+        height: 150px;
+    }
+}
+
+.grid-jogadores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-jogador {
+    background: #121212;
+    border: 1px solid #252525;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card-jogador:hover {
+    transform: translateY(-8px);
+}
+
+.card-jogador img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card-jogador h3 {
+    margin: 18px 10px 5px;
+}
+
+.card-jogador p {
+    color: #b5b5b5;
+    margin: 0 10px 20px;
+}
+
+.bandeira-jogador {
+    width: 24px !important; /* usa important pra que nao tenha conflitos entre as imagens na questao da largura */
+    height: 16px !important;
+    object-fit: cover !important;
+    vertical-align: middle;
+    margin-right: 7px;
+    border-radius: 2px;
+}
+
+.links-redes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.links-redes a {
+    color: white;
+    text-decoration: none;
+    background: #181818;
+    border: 1px solid #303030;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.links-redes a:hover {
+    background: white;
+    color: black;
+}
+
+body{
+    background-color: black;
+}
